@@ -31,7 +31,9 @@ abstract class Animal {
       console.log("Meow!");
     }
   }
-  
+// Creates our array of 'animal' objects, which contains our 'dog' and 'cat' objects.
+// It iterates over the array, calling our 'makeNoise' and 'move' methods for each object.
+// Our output should be 'Woof!' 'Fido is moving' 'Meow!' 'Fluffy is moving'. 
   const animals: Animal[] = [new Dog("Fido"), new Cat("Fluffy")];
   
   for (const animal of animals) {
